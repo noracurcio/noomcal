@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import JSXVariables from "./components/JSXVariables";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>
+  <JSXVariables 
+  operator="plus" num1={3} num2={2} 
+  />
+  <JSXVariables 
+  operator="multiply" num1={3} num2={111} 
+  />
+  
+  </>
   );
 }
 
 export default App;
+//name of opp first num and second num

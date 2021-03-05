@@ -1,19 +1,8 @@
 import React from "react";
-import JSXVariables from "./components/JSXVariables";
+import OmdbContainer from "./components/OmdbContainer";
 
 function App() {
-  return (
-  <>
-  <JSXVariables 
-  operator="plus" num1={3} num2={2} 
-  />
-  <JSXVariables 
-  operator="multiply" num1={3} num2={111} 
-  />
-  
-  </>
-  );
+  return <OmdbContainer />;
 }
 
 export default App;
-//name of opp first num and second num
